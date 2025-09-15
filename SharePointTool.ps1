@@ -1,13 +1,13 @@
 <#PSScriptInfo
 .VERSION 2.0
 .GUID 2b6b6c5a-0b1e-4f8c-9f41-7bf3b14b5c33
-.AUTHOR You+ChatGPT
-.COPYRIGHT (c) You
+.AUTHOR Fenris+ChatGPT
+.COPYRIGHT (c) Fenris
 #>
 
 <# 
 .SYNOPSIS
-SharePoint Online reporting tool (PnP.PowerShell + SPO Mgmt Shell), refactored for modularity & automation.
+SharePoint Online reporting tool (PnP.PowerShell + SPO Mgmt Shell).
 
 .DESCRIPTION
 Generates:
@@ -746,3 +746,4 @@ function Invoke-SPOExternalUsers {
 
 # You can call Start-SPOReportTool for the menu UX:
 # Start-SPOReportTool
+
